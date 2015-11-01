@@ -1,0 +1,26 @@
+{
+    "name": "fuzz/s3",
+    "description": "Wrapper around S3 file conveyor",
+    "authors": [
+        {
+            "name": "Fuzz Productions",
+            "email": "fuzzweb@fuzzproductions.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.0",
+        "fuzz/file": "~1.1",
+        "aws/aws-sdk-php": "~2.7"
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "git@gitlab.fuzzhq.com:web-modules/file.git"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Fuzz\\S3\\": "src/"
+        }
+    }
+}
