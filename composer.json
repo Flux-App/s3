@@ -9,13 +9,13 @@
     ],
     "require": {
         "php": ">=5.5.0",
-        "fuzz/file": "~1.1",
+        "fuzz/file": "master",
         "aws/aws-sdk-php": "~2.7"
     },
     "repositories": [
         {
             "type": "vcs",
-            "url": "git@gitlab.fuzzhq.com:web-modules/file.git"
+            "url": "git@github.com:Flux-App/s3.git"
         }
     ],
     "autoload": {
